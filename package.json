@@ -1,8 +1,6 @@
 {
   "scripts": {
-    "build": "babel ./src/ -d ./lib/",
-    "start": "node ./lib/.",
-    "bs": "yarn build && yarn start",
+    "bs": "node .",
     "launch": "nodemon --watch ./src/"
   },
   "name": "20180808_185657",

@@ -1,4 +1,4 @@
 function qv() {
   return this * this;
 }
-console.log(6::qv());
+console.log(7::qv());
