@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "babel ./src/ -d ./lib/",
+    "start": "node ./lib/.",
+    "bs": "yarn build && yarn start",
+    "launch": "nodemon --watch ./src/"
+  },
+  "name": "20180808_185657",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "nodemon": "^1.18.3"
+  }
+}
